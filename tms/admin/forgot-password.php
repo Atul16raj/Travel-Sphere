@@ -103,7 +103,7 @@ return true;
 			<div class="clearfix"></div>
 		</form>
 				<div class="back">
-					<a href="index.php" style="color: #fff;">Signin</a>
+					<a href="index.php" style="color: #fff;">Sign in</a>
 				</div>
 				
 	</div>

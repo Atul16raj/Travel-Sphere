@@ -52,7 +52,7 @@ echo "<script type='text/javascript'> document.location = 'dashboard.php'; </scr
 <body>
 	<div class="main-wthree">
 	<div class="container">
-	<div class="sin-w3-agile">
+	<div class="sin-w3-agile" style="width: 400px;">
 		<h2>Sign In</h2>
 		<form  method="post">
 			<div class="username">
@@ -61,18 +61,18 @@ echo "<script type='text/javascript'> document.location = 'dashboard.php'; </scr
 				<div class="clearfix"></div>
 			</div>
 			<div>
-			<a href="forgot-password.php" style="color: #fff;">Forgot Password</a></div>
 			<br>
 			<div class="password-agileits">
 				<span class="username">Password:</span>
 				<input type="password" name="password" class="password" placeholder="" required="">
 				<div class="clearfix"></div>
 			</div>
-			
 			<div class="login-w3">
 					<input type="submit" class="login" name="login" value="Sign In">
 			</div>
-			<div class="clearfix"></div>
+			<div class="clearfix">
+			<a href="forgot-password.php" style="color: #fff;">Forgot Password</a></div>
+			</div>
 		</form>
 				<div class="back">
 					<a href="../index.php" style="color: #fff;">Back to home</a>

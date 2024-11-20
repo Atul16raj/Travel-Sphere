@@ -147,7 +147,7 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
 									echo "Privacy And Policy";
 									break;
 				
-				case "aboutus" :
+				case "About Us" :
 									echo "About US";
 									break;
 				case "software" :

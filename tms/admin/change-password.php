@@ -146,6 +146,7 @@ return true;
 				<button type="submit" name="submit" class="btn-primary btn">Submit</button>
 				<button type="reset" class="btn-inverse btn">Reset</button>
 			</div>
+			<a href="forgot-password.php">Forgot current Password</a>
 		</div>
 			
 					</form>

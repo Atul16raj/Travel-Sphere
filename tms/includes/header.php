@@ -19,12 +19,12 @@
             color: white; /* Text color */
         }
         .top-header a {
-            color: white;
+            color: Black;
             text-decoration: none;
         }
-        .top-header a:hover {
+        /* .top-header a:hover {
             text-decoration: underline;
-        }
+        } */
         .header {
             background-color: #4CAF50; /* Header background */
             color: white;
@@ -98,7 +98,7 @@
                 <li class="hm"><a href="admin/index.php">Admin Login</a></li>
             </ul>
             <ul class="tp-hd-rgt d-flex justify-content-end align-items-center">
-                <li class="tol pr-4">Toll Number : 123-4568790</li>
+                <li class="tol pr-4">Toll Number : 0000000001</li>
                 <div class="auth-links">
                     <li class="sig"><a href="#" data-toggle="modal" data-target="#myModal">Sign Up</a></li>
                     <li class="sigi"><a href="#" data-toggle="modal" data-target="#myModal4">Sign In</a></li>

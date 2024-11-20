@@ -45,7 +45,7 @@ function checkAvailability() {
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title text-center w-100" id="myModalLabel">Create Your Account</h5>
+                <h5 class="modal-title text-center w-100" id="myModalLabel" style="color:black">Create Your Account</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -53,20 +53,20 @@ function checkAvailability() {
             <div class="modal-body">
                 <form name="signup" method="post">
                     <div class="form-group">
-                        <label for="fname">Full Name</label>
+                        <label for="fname" style="color:black">Full Name</label>
                         <input type="text" class="form-control" name="fname" placeholder="Full Name" required autocomplete="off">
                     </div>
                     <div class="form-group">
-                        <label for="mobilenumber">Mobile Number</label>
+                        <label for="mobilenumber" style="color:black">Mobile Number</label>
                         <input type="text" class="form-control" name="mobilenumber" maxlength="10" placeholder="Mobile Number" required autocomplete="off">
                     </div>
                     <div class="form-group">
-                        <label for="email">Email ID</label>
+                        <label for="email" style="color:black">Email ID</label>
                         <input type="text" class="form-control" name="email" id="email" placeholder="Email ID" onBlur="checkAvailability()" required autocomplete="off">
                         <span id="user-availability-status" style="font-size: 12px;"></span>
                     </div>
                     <div class="form-group">
-                        <label for="password">Password</label>
+                        <label for="password" style="color:black">Password</label>
                         <input type="password" class="form-control" name="password" placeholder="Password" required>
                     </div>
                     <button type="submit" name="submit" id="submit" class="btn btn-primary btn-block" style="background: linear-gradient(to right, #007bff, #28a745); border: none;">CREATE ACCOUNT</button>

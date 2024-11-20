@@ -23,7 +23,7 @@ if (isset($_POST['signin'])) {
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title text-center w-100" id="myModalLabel">Sign In</h5>
+                <h5 class="modal-title text-center w-100" id="myModalLabel" style="color:black">Sign In</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -31,11 +31,11 @@ if (isset($_POST['signin'])) {
             <div class="modal-body">
                 <form method="post">
                     <div class="form-group">
-                        <label for="email">Email address</label>
+                        <label for="email" style="color:black">Email address</label>
                         <input type="email" class="form-control" name="email" id="email" placeholder="Enter your Email" required>
                     </div>
                     <div class="form-group">
-                        <label for="password">Password</label>
+                        <label for="password" style="color:black">Password</label>
                         <div class="input-group">
                             <input type="password" class="form-control" name="password" id="password" placeholder="Password" required>
                             <div class="input-group-append">
